@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1RMCalculator</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js" defer></script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1RMCalculator</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/script.js" defer></script>
+    </head>
 
-</head>
+    <body>
+        <header id="topo">
+            <div id="title">
+                <h1 id="titulo">Calcule seu 1RM!</h1>
+            </div>
+        </header>
 
-<body>
-    <header id="topo">
-        <h1 id="titulo">Calcule seu 1RM!</h1>
-        <nav>
-            <ul>
-                <li class="link"><a href="https://github.com/vitin46">GitHub</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <div id="form">
-        <form action="./js/script.js">
-            <label for="carga">Digite a carga levantada</label><br>
-            <input type="number" id="carga" name="carga"><br>
-        </form>
-    </div>
-    
+        <main>
+            <div id="form" class="container">
+                <form action="./js/script.js">
+                    <label for="carga" id="name">Digite a carga levantada</label>
+                    <input type="text" id="carga" name="carga" maxlength="5" />
+                    <button id="botao">Calcular</button>
+                </form>
+            </div>
+        </main>
 
-    
-</body>
+        <footer>
+            <div id="baixo"> 
+                <a href="https://github.com/vitin46" class="link">GitHub</a>
+                <a href="https://www.linkedin.com/in/victor-lira-58163127b/" class="link">LinkedIn</a>
+            </div>
+        </footer>
+    </body>
 </html>

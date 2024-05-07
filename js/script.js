@@ -1,0 +1,1 @@
+//formula:            1RM = Weight (1 + Reps/30)
