@@ -18,17 +18,29 @@
         <main>
             <div id="form" class="container">
                 <form action="./js/script.js">
-                    <label for="carga" id="name">Digite a carga levantada</label>
-                    <input type="text" id="carga" name="carga" maxlength="5" />
-                    <button id="botao">Calcular</button>
+                    <div class="titulo_carga"> 
+                        <label for="carga" id="name">Digite a carga levantada</label>
+                    </div>
+                    <div class="carga"> 
+                        <input type="number" id="carga" name="carga" maxlength="6"/>
+                    </div>
+                    <div class="selecao">
+                        <select name="unidade_de_massa" >
+                            <option value="kg">Kg</option>
+                            <option value="lb">Lb</option>
+                        </select>
+                    </div>
+                    <div class="calcular"> 
+                        <button type="submit" id="botao">Calcular</button>
+                    </div>
                 </form>
             </div>
         </main>
 
         <footer>
-            <div id="baixo"> 
-                <a href="https://github.com/vitin46" class="link">GitHub</a>
-                <a href="https://www.linkedin.com/in/victor-lira-58163127b/" class="link">LinkedIn</a>
+            <div class="rodape"> 
+                <a href="https://github.com/vitin46" class="link" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/victor-lira-58163127b/" class="link" target="_blank">LinkedIn</a>
             </div>
         </footer>
     </body>
