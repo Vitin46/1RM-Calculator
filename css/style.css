@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.container{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+}
+
 #topo{
     padding: 10px;
     margin: 0; 
@@ -12,13 +20,6 @@
     max-width: 100%;
 }
 
-#form{
-    padding: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .rodape{
     text-align: center;
@@ -29,3 +30,4 @@
     bottom: 0;
     left: 0;
 }
+
